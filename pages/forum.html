@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Gaming Club For Every Gammer" />
+    <meta name="keywords" content="Gaming, Gamers House, Games, Royal Gaming" />
+    <meta name="author" content="ITI Team" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Foro</title>
+
+    <link rel="stylesheet" href="../vendors/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="../vendors/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="../vendors/aos/aos.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/forum.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../images/favicon/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <!-- Start Nav -->
+    <nav>
+      <div class="container">
+        <div
+          class="nav-content d-flex justify-content-between align-items-center"
+        >
+          <!-- Logo -->
+          <a href="index.html">
+            <div class="logo text-light d-flex align-items-center">
+              <i class="fas fa-gamepad"></i>
+              <h3 class="m-0">Royal <span>Gaming</span></h3>
+            </div>
+          </a>
+          <!-- Nav Links -->
+          <ul
+            class="d-none d-lg-flex align-items-center justify-content-between"
+          >
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/games.html">Juegos</a></li>
+            <li><a href="pages/blog.html">Blog</a></li>
+            <li><a href="pages/forum.html">Foro</a></li>
+            <li><a href="pages/contact.html">Contacto</a></li>
+          </ul>
+          <!-- Login Links -->
+          <div class="register d-none d-lg-block">
+            <button data-toggle="modal" data-target="#loginModal">
+              Iniciar Sesion
+            </button>
+            <button data-toggle="modal" data-target="#registerModal">
+              Registrarse
+            </button>
+          </div>
+          <!-- Resposivo Icon -->
+          <div class="responsive-nav-icon">
+            <button class="d-block d-lg-none">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Resposivo Nave -->
+      <div class="responsive-nav d-flex flex-column justify-content-between">
+        <!-- Logo -->
+        <a href="index.html">
+          <div
+            class="logo text-light d-flex align-items-center justify-content-center"
+          >
+            <i class="fas fa-gamepad"></i>
+            <h3 class="m-0">Royal <span>Gaming</span></h3>
+          </div>
+        </a>
+        <!-- Nav Links -->
+        <ul class="d-flex flex-column flex-grow-1 justify-content-center">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="pages/games.html">VideoJuegos</a></li>
+          <li><a href="pages/blog.html">Blog</a></li>
+          <li><a href="pages/forum.html">Foro</a></li>
+          <li><a href="pages/contact.html">Contacto</a></li>
+        </ul>
+        <!-- Login Links -->
+        <div class="register d-flex flex-column">
+          <button data-toggle="modal" data-target="#loginModal">
+            Iniciar Sesion
+          </button>
+          <button data-toggle="modal" data-target="#registerModal">
+            Registrarse
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin Nav -->
+
+    <!-- Start Header -->
+    <!-- Inicio Header -->
+    <header class="main-header">
+      <div class="overlay"></div>
+      <div class="container">
+        <!-- Header Contenido -->
+        <div
+          class="header-content d-flex flex-column justify-content-center animate__animated animate__fadeInRight animate__delay-2s"
+        >
+          <h1>Nuestra <span>Comunidad</span></h1>
+          <p>
+            Comparta tus habilidades, reseñas y comentarios.Entra a nuestra
+            comunidad ahora.
+          </p>
+        </div>
+      </div>
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Inicio Barra de noticias -->
+    <section class="news d-flex align-items-center">
+      <!-- titulo de la barra -->
+      <div class="news-title d-none d-sm-block">
+        <h4>Ultimas Noticias</h4>
+      </div>
+      <!-- Contenido -->
+      <div class="news-wrap flex-grow-1">
+        <div class="news-container d-flex align-items-center">
+          <!--Item -->
+          <div class="item d-flex align-items-center">
+            <span>Nuevo</span>
+            <p>Siento el poder de las nuevas consolas con estos juegos.</p>
+          </div>
+          <!--  Item -->
+          <div class="item d-flex align-items-center">
+            <span>Estrategia</span>
+            <p>El nuevo Age of Emperio es regreso de una gran saga</p>
+          </div>
+          <!-- Item -->
+          <div class="item d-flex align-items-center">
+            <span>Carreras</span>
+            <p>Los mejores auto de gran Turismo 7 que debes tener</p>
+          </div>
+          <!-- Item -->
+          <div class="item d-flex align-items-center">
+            <span>Accion</span>
+            <p>
+              Elden ring la obra maestar de FromSoftware y lo que sigue para
+              ellos.
+            </p>
+          </div>
+          <!-- Item -->
+          <div class="item d-flex align-items-center">
+            <span>Aventura</span>
+            <p>Quieres Empezar una no-hit la guia que debes ver</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Barra de noticias -->
+
+    <!-- Inicio Foro -->
+    <section class="forum">
+      <div class="container">
+        <h2>Miembros <span>- 343</span></h2>
+        <!-- Seccion del Foro -->
+        <div class="forum-section" data-aos="fade-up">
+          <!-- Autor -->
+          <div class="author d-flex align-items-center">
+            <div class="author-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="../images/authors/1.jpg"
+                alt="Author 1"
+              />
+            </div>
+            <div class="author-info">
+              <span class="name">Jhon micheal</span>
+              <span class="date">12 abril 2022</span>
+            </div>
+          </div>
+          <!-- Contenido -->
+          <div class="content">
+            <h5>Elden ring</h5>
+            <p>
+              El juego es bueno, muy bueno, sinceramente me parece de los
+              mejores souls junto a dark souls 1 y bloodborne. Y me parece que
+              hay muchas críticas negativas infundadas o que le ponen un puntaje
+              muy bajo para los pocos errores que le encuentran, el juego te
+              puede gustar mas o menos y eso esta mas que perfecto, pero es una
+              maravilla
+            </p>
+          </div>
+          <div class="like">
+            <i class="far fa-heart"></i>
+            <span class="likes">5</span>
+          </div>
+        </div>
+        <!-- Seccion del Foro -->
+        <div class="forum-section" data-aos="fade-up">
+          <!-- Autor -->
+          <div class="author d-flex align-items-center">
+            <div class="author-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="../images/authors/2.jpg"
+                alt="Author 2"
+              />
+            </div>
+            <div class="author-info">
+              <span class="name">James Smith</span>
+              <span class="date">17 abril 2022</span>
+            </div>
+          </div>
+          <!-- Content -->
+          <div class="content">
+            <h5>HORIZON FORBIDDEN WEST</h5>
+            <p>
+              La viciada que me pegué ayer y hoy no es ni medio normal. 15 horas
+              seguidas ( y 4 cargas del dualsense) hacía tiempo que no
+              disfrutaba tanto de un videojuego. Horizon Zero Dawn me enamoró
+              por su historia de ciencia ficción y Horizon Forbidden West me
+              está enamorando por los giros argumentales y lo bonito de su
+              mundo.
+            </p>
+          </div>
+          <div class="like">
+            <i class="far fa-heart"></i>
+            <span class="likes">7</span>
+          </div>
+        </div>
+        <!-- Seccion del Foro -->
+        <div class="forum-section" data-aos="fade-up">
+          <!-- Autor -->
+          <div class="author d-flex align-items-center">
+            <div class="author-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="../images/authors/3.jpg"
+                alt="Author 3"
+              />
+            </div>
+            <div class="author-info">
+              <span class="name">Smith Joh</span>
+              <span class="date">16 abril 2022</span>
+            </div>
+          </div>
+          <!-- Content -->
+          <div class="content">
+            <h5>ATELIER RYZA 2: LOST LEGFinS & THE SECRET FAIRY</h5>
+            <p>
+              No tan increíble como el primero, pero sigue siFino increíble
+              10/10. El comienzo es lento pero luego toma fuerza y ​​es muy
+              divertido.
+            </p>
+          </div>
+          <div class="like">
+            <i class="far fa-heart"></i>
+            <span class="likes">10</span>
+          </div>
+        </div>
+        <!-- Seccion del Foro -->
+        <div class="forum-section" data-aos="fade-up">
+          <!-- Autor -->
+          <div class="author d-flex align-items-center">
+            <div class="author-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="../images/authors/4.jpg"
+                alt="Author 4"
+              />
+            </div>
+            <div class="author-info">
+              <span class="name">Mo Smith</span>
+              <span class="date">16 abril 2022</span>
+            </div>
+          </div>
+          <!-- Content -->
+          <div class="content">
+            <h5>LOOP HERO</h5>
+            <p>
+              Juego adictivo que simplemente no puedes dejar. Muy único y
+              diferente, pero un bucle de juego tan perfecto. ¡¡¡Me encanta!!!
+            </p>
+          </div>
+          <div class="like">
+            <i class="far fa-heart"></i>
+            <span class="likes">22</span>
+          </div>
+        </div>
+        <!-- Seccion del Foro -->
+        <div class="forum-section" data-aos="fade-up">
+          <!-- Autor -->
+          <div class="author d-flex align-items-center">
+            <div class="author-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="../images/authors/5.jpg"
+                alt="Author 5"
+              />
+            </div>
+            <div class="author-info">
+              <span class="name">Angelina Adam</span>
+              <span class="date">16 de abril 2022</span>
+            </div>
+          </div>
+          <!-- Content -->
+          <div class="content">
+            <h5>Chicory: A Colorful Tale</h5>
+            <p>
+              Rara vez doy 10/10, pero este juego superó mis expectativas. Es
+              una combinación encantadora de un motor de arte, un juego de
+              rompecabezas y una historia vibrante sobre la salud mental.
+            </p>
+          </div>
+          <div class="like">
+            <i class="far fa-heart"></i>
+            <span class="likes">13</span>
+          </div>
+        </div>
+        <!-- Seccion del Foro -->
+        <div class="forum-section" data-aos="fade-up">
+          <!-- Autor -->
+          <div class="author d-flex align-items-center">
+            <div class="author-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="../images/authors/6.jpg"
+                alt="Author 6"
+              />
+            </div>
+            <div class="author-info">
+              <span class="name">Jan Joe</span>
+              <span class="date">17 abril 2020</span>
+            </div>
+          </div>
+          <!-- Content -->
+          <div class="content">
+            <h5>MONSTER HUNTER RISE</h5>
+            <p>
+              Fantástico juego. La historia se truncó seguro para covid y se
+              agregará en una actualización, de la cual hay 2 actualizaciones
+              masivas conocidas que llegarán de forma gratuita muy pronto. La
+              jugabilidad es fantástica, los gráficos son tan buenos como se ve
+              en el interruptor.
+            </p>
+          </div>
+          <div class="like">
+            <i class="far fa-heart"></i>
+            <span class="likes">18</span>
+          </div>
+        </div>
+        <!-- Login To Participate -->
+        <div
+          class="login text-center d-sm-flex align-items-center"
+          data-aos="zoom-in"
+        >
+          <h5 class="mb-4 mb-sm-0 mr-sm-5">Unete Para Participar</h5>
+          <div class="links">
+            <button class="mr-3" data-toggle="modal" data-target="#loginModal">
+              Ingresar
+            </button>
+            <button data-toggle="modal" data-target="#registerModal">
+              Registrarse
+            </button>
+          </div>
+        </div>
+        <!-- Paginacion -->
+        <ul class="pagination" data-aos="zoom-in">
+          <li class="page-item disabled">
+            <a class="page-link" href="#">Anterior</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="forum.html">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="forum-2.html">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="forum-3.html">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="forum-2.html">Siguiente</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Fin Forum -->
+
+    <!-- Inicio Pre-Footer -->
+    <section class="pre-footer">
+      <div class="container">
+        <div class="row">
+          <!-- Info -->
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="info">
+              <div class="logo d-flex align-items-center">
+                <i class="fas fa-gamepad"></i>
+                <h2>Royal <span>Gaming</span></h2>
+              </div>
+              <p>vamos empieza tu videos en linea y juega gratis</p>
+            </div>
+          </div>
+          <!-- Latest Posts -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="latest-posts">
+              <h4>Ultimos Posts</h4>
+              <!-- Post 1 -->
+              <div
+                class="post d-flex align-items-center d-flex align-items-center"
+              >
+                <div class="post-image">
+                  <img
+                    class="rounded-lg img-fluid"
+                    src="../images/latest-blog/1.jpeg"
+                    alt="Post 1"
+                  />
+                </div>
+                <div class="post-info">
+                  <span>14 abril 2022</span>
+                  <p>Pubg es una gran battle royale.</p>
+                  <span>Por Admin</span>
+                </div>
+              </div>
+              <!-- Post 2 -->
+              <div class="post d-flex align-items-center">
+                <div class="post-image">
+                  <img
+                    class="rounded-lg img-fluid"
+                    src="../images/latest-blog/2.jpeg"
+                    alt="Post 2"
+                  />
+                </div>
+                <div class="post-info">
+                  <span>10 abril 2022</span>
+                  <p>Por que jugar Pubg en 2022</p>
+                  <span>Por Vanessa Sinfuentes</span>
+                </div>
+              </div>
+              <!-- Post 3 -->
+              <div class="post d-flex align-items-center">
+                <div class="post-image">
+                  <img
+                    class="rounded-lg img-fluid"
+                    src="../images/latest-blog/3.jpg"
+                    alt="Post 3"
+                  />
+                </div>
+                <div class="post-info">
+                  <span>7 abril 2022</span>
+                  <p>Mi juego Favorito onlione.</p>
+                  <span>By Vanessa sinfuentes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Top Comments -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="top-comments">
+              <h4>Comentarios Top</h4>
+              <!-- Comment 1 -->
+              <div class="comment d-flex align-items-center">
+                <div class="comment-img">
+                  <img
+                    class="rounded-circle img-fluid"
+                    src="../images/authors/1.jpg"
+                    alt="Comment 1"
+                  />
+                </div>
+                <div class="comment-info">
+                  <span>Tom george</span>
+                  <p><span>En</span> Royal Gaming.</p>
+                  <span>15 abril 2022</span>
+                </div>
+              </div>
+              <!-- Comment 2 -->
+              <div class="comment d-flex align-items-center">
+                <div class="comment-img">
+                  <img
+                    class="rounded-circle img-fluid"
+                    src="../images/authors/2.jpg"
+                    alt="Comment 2"
+                  />
+                </div>
+                <div class="comment-info">
+                  <span>Lore Joh</span>
+                  <p><span>En</span> Amo Royal Gaming.</p>
+                  <span>15 abril 2022</span>
+                </div>
+              </div>
+              <!-- Comment 3 -->
+              <div class="comment d-flex align-items-center">
+                <div class="comment-img">
+                  <img
+                    class="rounded-circle img-fluid"
+                    src="../images/authors/3.jpg"
+                    alt="Comment 3"
+                  />
+                </div>
+                <div class="comment-info">
+                  <span>John Micheal</span>
+                  <p><span>En</span> Hermosos Sitio.</p>
+                  <span>15 abril 2022</span>
+                </div>
+              </div>
+              <!-- Comment 4 -->
+              <div class="comment d-flex align-items-center">
+                <div class="comment-img">
+                  <img
+                    class="rounded-circle img-fluid"
+                    src="../images/authors/4.jpg"
+                    alt="Comment 4"
+                  />
+                </div>
+                <div class="comment-info">
+                  <span> George spe</span>
+                  <p><span>En</span> Amo gaming.</p>
+                  <span>14 abril 2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Pre-Footer -->
+
+    <!-- Inicio Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- Copyright -->
+          <div class="copyright col-lg-6">
+            <p>
+              &copy; <span id="footer-copyright-year"></span> |
+              <span>Edwin Kevin Simental Frayre</span>
+            </p>
+          </div>
+          <!-- Links -->
+          <div class="links col-lg-6">
+            <a href="https://github.com/salahineo" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/salahineo/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://salahineo.github.io/salahineo/" target="_blank">
+              <i class="fas fa-globe-africa"></i>
+            </a>
+            <a href="https://twitter.com/salahineo" target="_blank">
+              <i class="fab fa-twitter"> </i>
+            </a>
+            <a href="https://www.facebook.com/salahineo/" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="mailto:salahineo.work@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin Footer -->
+
+    <!-- Start Preloader -->
+    <div id="preloader"></div>
+    <!-- End Preloader -->
+
+    <!-- Start Go To Top Arrow -->
+    <div id="top">
+      <i class="fas fa-arrow-alt-circle-up"></i>
+    </div>
+    <!-- End Go To Top Arrow -->
+
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal contenidio-->
+        <div class="modal-content">
+          <!-- Body -->
+          <div class="modal-body">
+            <h4 class="text-md-center">Iniciar Sesion</h4>
+            <button type="button" class="d-md-none close" data-dismiss="modal">
+              &times;
+            </button>
+            <div class="username d-flex align-items-center">
+              <i class="fas fa-user"></i>
+              <input
+                class="flex-grow-1"
+                type="text"
+                id="username"
+                placeholder="Usuario"
+              />
+            </div>
+            <div class="password d-flex align-items-center">
+              <i class="fas fa-lock"></i>
+              <input
+                class="flex-grow-1"
+                type="password"
+                id="password"
+                placeholder="Contraseña"
+              />
+            </div>
+            <button class="btn btn-primary">Iniciar</button>
+            <hr />
+            <div class="social d-flex flex-column align-items-center">
+              <button class="facebook mb-3">
+                <i class="fab fa-facebook-f"></i>
+                Inciar Con Facebook
+              </button>
+              <button class="google mb-3">
+                <i class="fab fa-google"></i>
+                Inciar con Google
+              </button>
+              <button class="twitter mb-3">
+                <i class="fab fa-twitter"></i>
+                Iniciar Con TWITTER
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Login Modal -->
+
+    <!-- inicio Registro Modal -->
+    <div id="registerModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal Contenido-->
+        <div class="modal-content">
+          <!-- Body -->
+          <div class="modal-body">
+            <h4 class="text-md-center">Registrarse</h4>
+            <button type="button" class="d-md-none close" data-dismiss="modal">
+              &times;
+            </button>
+            <div class="name d-flex align-items-center">
+              <i class="fas fa-user"></i>
+              <input
+                class="flex-grow-1"
+                type="text"
+                id="name"
+                placeholder="Nombre"
+              />
+            </div>
+            <div class="email d-flex align-items-center">
+              <i class="fas fa-envelope"></i>
+              <input
+                class="flex-grow-1"
+                type="email"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="password d-flex align-items-center">
+              <i class="fas fa-lock"></i>
+              <input
+                class="flex-grow-1"
+                type="password"
+                id="register-password"
+                placeholder="Contraseña"
+              />
+            </div>
+            <button class="btn btn-primary">Registrarse</button>
+            <hr />
+            <div class="social d-flex flex-column align-items-center">
+              <button class="facebook mb-3">
+                <i class="fab fa-facebook-f"></i>
+                Registrarse con Facebook
+              </button>
+              <button class="google mb-3">
+                <i class="fab fa-google"></i>
+                Registrarse con Google
+              </button>
+              <button class="twitter mb-3">
+                <i class="fab fa-twitter"></i>
+                Registrarse con Twitter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Register Modal -->
+
+    <!-- Scripts -->
+    <script src="../vendors/jquery/jquery.min.js"></script>
+    <script src="../vendors/popperjs/popper.min.js"></script>
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="../vendors/aos/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/forum.js"></script>
+  </body>
+</html>

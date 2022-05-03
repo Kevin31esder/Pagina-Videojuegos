@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Home For Every Gammer" />
+    <meta name="keywords" content="Gaming, Gamers House, Games, Royal Gaming" />
+    <meta name="author" content="ITI Team" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Royal Gaming</title>
+
+    <link rel="stylesheet" href="vendors/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="vendors/aos/aos.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div
+          class="nav-content d-flex justify-content-between align-items-center"
+        >
+          <!-- Logo -->
+          <a href="index.html">
+            <div class="logo text-light d-flex align-items-center">
+              <i class="fas fa-gamepad"></i>
+              <h3 class="m-0">Royal <span>Gaming</span></h3>
+            </div>
+          </a>
+          <!-- Nav Links -->
+          <ul
+            class="d-none d-lg-flex align-items-center justify-content-between"
+          >
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/games.html">Juegos</a></li>
+            <li><a href="pages/blog.html">Blog</a></li>
+            <li><a href="pages/forum.html">Foro</a></li>
+            <li><a href="pages/contact.html">Contacto</a></li>
+          </ul>
+          <!-- Login Links -->
+          <div class="register d-none d-lg-block">
+            <button data-toggle="modal" data-target="#loginModal">
+              Iniciar Sesion
+            </button>
+            <button data-toggle="modal" data-target="#registerModal">
+              Registrarse
+            </button>
+          </div>
+          <!-- Resposivo Icon -->
+          <div class="responsive-nav-icon">
+            <button class="d-block d-lg-none">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Resposivo Nav -->
+      <div class="responsive-nav d-flex flex-column justify-content-between">
+        <!-- Logo -->
+        <a href="index.html">
+          <div
+            class="logo text-light d-flex align-items-center justify-content-center"
+          >
+            <i class="fas fa-gamepad"></i>
+            <h3 class="m-0">Royal <span>Gaming</span></h3>
+          </div>
+        </a>
+        <!-- Nav Links -->
+        <ul class="d-flex flex-column flex-grow-1 justify-content-center">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="pages/games.html">VideoJuegos</a></li>
+          <li><a href="pages/blog.html">Blog</a></li>
+          <li><a href="pages/forum.html">Foro</a></li>
+          <li><a href="pages/contact.html">Contacto</a></li>
+        </ul>
+        <!-- Login Links -->
+        <div class="register d-flex flex-column">
+          <button data-toggle="modal" data-target="#loginModal">
+            Iniciar Sesion
+          </button>
+          <button data-toggle="modal" data-target="#registerModal">
+            Registrarse
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- FIN Nav -->
+
+    <!-- inicio Header -->
+    <header class="main-header">
+      <div class="overlay"></div>
+      <div class="container">
+        <!-- Header Contenido -->
+        <div
+          class="header-content d-flex flex-column justify-content-center animate__animated animate__fadeInRight animate__delay-2s"
+        >
+          <h1>Los mejores <span>VideoJuegos</span> Del mundo</h1>
+          <p>
+            Bienvenido a Royal Gaming, el hogar de todos los jugadores. Puedes
+            encontrar cualquier juego que quieres aquí.
+          </p>
+          <button id="explore">Explorar</button>
+        </div>
+      </div>
+    </header>
+    <!-- fin Header -->
+
+    <!-- Inicio barra de noticias -->
+    <section class="news d-flex align-items-center">
+      <!-- titulo de la barra -->
+      <div class="news-title d-none d-sm-block">
+        <h4>Ultimas Noticias</h4>
+      </div>
+      <!-- Contenido -->
+      <div class="news-wrap flex-grow-1">
+        <div class="news-container d-flex align-items-center">
+          <!--Item -->
+          <div class="item d-flex align-items-center">
+            <span>Nuevo</span>
+            <p>Siento el poder de las nuevas consolas con estos juegos.</p>
+          </div>
+          <!--  Item -->
+          <div class="item d-flex align-items-center">
+            <span>Estrategia</span>
+            <p>El nuevo Age of Emperio es regreso de una gran saga</p>
+          </div>
+          <!-- Item -->
+          <div class="item d-flex align-items-center">
+            <span>Carreras</span>
+            <p>Los mejores auto de gran Turismo 7 que debes tener</p>
+          </div>
+          <!-- Item -->
+          <div class="item d-flex align-items-center">
+            <span>Accion</span>
+            <p>
+              Elden ring la obra maestar de FromSoftware y lo que sigue para
+              ellos.
+            </p>
+          </div>
+          <!-- Item -->
+          <div class="item d-flex align-items-center">
+            <span>Aventura</span>
+            <p>Quieres Empezar una no-hit la guia que debes ver</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin de la barra de noticias -->
+
+    <!-- Inicio Features -->
+    <section class="features">
+      <div class="container">
+        <div class="row">
+          <!-- Features Item 1 -->
+          <div
+            class="post mx-2 mx-sm-0 mb-3 mb-md-0 col-md-6 col-lg-3 p-0"
+            data-aos="fade-up"
+          >
+            <span>Inico</span>
+            <div class="post-content">
+              <h5>Elden ring</h5>
+              <p>El mejor Mundo abierto de esta decada ya esta aqui.</p>
+              <span>3 Comentarios</span>
+            </div>
+          </div>
+          <!-- Features Item 2 -->
+          <div
+            class="post mx-2 mx-sm-0 mb-3 mb-md-0 col-md-6 col-lg-3 p-0"
+            data-aos="fade-up"
+          >
+            <span>Aventura</span>
+            <div class="post-content">
+              <h5>Horizon Forbidden West</h5>
+              <p>Una secuela con muchas mejoras graficas</p>
+              <span>5 Comentarios</span>
+            </div>
+          </div>
+          <!-- Features Item 3 -->
+          <div
+            class="post mx-2 mx-sm-0 mb-3 mb-md-0 col-md-6 col-lg-3 p-0"
+            data-aos="fade-up"
+          >
+            <span>Carreras</span>
+            <div class="post-content">
+              <h5>Gran Turimo 7</h5>
+              <p>La saga gran turismo vuelve por el turismo</p>
+              <span>4 comentarios</span>
+            </div>
+          </div>
+          <!-- Features Item 4 -->
+          <div
+            class="post mx-2 mx-sm-0 mb-3 mb-md-0 col-md-6 col-lg-3 p-0"
+            data-aos="fade-up"
+          >
+            <span>Nuevo</span>
+            <div class="post-content">
+              <h5>GrandBlue Fantasy relink</h5>
+              <p>Uno de los Grande jrpgs de este año</p>
+              <span>6 Comentarios</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Features -->
+
+    <!--Inicio Juegos Recientte -->
+    <section class="recent-games text-center">
+      <div class="container">
+        <span data-aos="fade-up">Nuevo</span>
+        <h2 data-aos="fade-up">VideoJuegos Recientes</h2>
+        <div class="row">
+          <!-- Juego 1 -->
+          <div class="game-1 mb-4 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up">
+            <div class="game">
+              <span>Jrpg</span>
+              <div class="background"></div>
+              <div class="game-content">
+                <h5>Shin Megami Tensei 5</h5>
+                <p>Unos de los Mejores Jrpg del año pasado</p>
+                <span>3 Comentarios</span>
+              </div>
+              <div class="like"><i class="far fa-heart"></i></div>
+            </div>
+          </div>
+          <!-- Juego 2  -->
+          <div class="game-2 mb-4 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up">
+            <div class="game">
+              <span>Jrpg</span>
+              <div class="background"></div>
+              <div class="game-content">
+                <h5>Atelier Ryza</h5>
+                <p>
+                  La entretenida saga Atelier se renueva con un sistema de
+                  combate ágil y un salto gráfico notorio, sin por ello alejarse
+                  mucho de la fórmula habitual.
+                </p>
+                <span>8 Comentarios</span>
+              </div>
+              <div class="like"><i class="far fa-heart"></i></div>
+            </div>
+          </div>
+          <!-- Juego 3 -->
+          <div class="game-3 mb-4 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up">
+            <div class="game">
+              <span>Action Jrpg</span>
+              <div class="background"></div>
+              <div class="game-content">
+                <h5>Ys IX</h5>
+                <p>
+                  UUn gran RPG de acción que encantará a los fans, con el mejor
+                  combate en la saga, pero lastrado por un desarrollo algo
+                  repetitivo.
+                </p>
+                <span>4 comentarios</span>
+              </div>
+              <div class="like"><i class="far fa-heart"></i></div>
+            </div>
+          </div>
+          <!-- Juego 4 -->
+          <div class="game-4 mb-4 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up">
+            <div class="game">
+              <span>Action Jrpg</span>
+              <div class="background"></div>
+              <div class="game-content">
+                <h5>Tales of Arise</h5>
+                <p>
+                  Tales of Arise es el nuevo videojuego de la saga Tales of de
+                  Bandai Namco. Se trata de una secuela muy ambiciosa, que
+                  pretende marcar un antes y un después dentro de la serie de
+                  títulos de rol.
+                </p>
+                <span>6 Comentarios</span>
+              </div>
+              <div class="like"><i class="far fa-heart"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin de juegos recientes -->
+
+    <!-- Torneos -->
+    <section class="tournaments">
+      <div class="container">
+        <div class="row">
+          <!-- torneo 1 -->
+          <div class="tournament-1 mb-3 mb-md-0 col-md-6" data-aos="fade-up">
+            <div class="tournament">
+              <span>Torneos Gratis</span>
+              <div class="tournament-content mt-4 row">
+                <div class="image mb-3 mb-lg-0 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="images/tournament/1.jpg"
+                    alt="Torneo 1"
+                  />
+                </div>
+                <div class="info col-lg-8">
+                  <h4>World Of WarCraft</h4>
+                  <div class="body">
+                    <p><span>Inicio del Torneo:</span> 20 junio 2021</p>
+                    <p><span>Fin del Torneo:</span> 15 julio 2021</p>
+                    <p><span>Participantes:</span> 10 teams</p>
+                    <p><span>Autor del Torneo:</span> Admin</p>
+                  </div>
+                  <div class="footer">
+                    <p>
+                      <span>Premios: </span>1st: $1000, 2nd: $500, 3rd: $100
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Torneo 2 -->
+          <div class="tournament-2 col-md-6" data-aos="fade-up">
+            <div class="tournament">
+              <span>Torneo Premiun</span>
+              <div class="tournament-content mt-4 row">
+                <div class="image mb-3 mb-lg-0 col-lg-4">
+                  <img
+                    class="img-fluid"
+                    src="images/tournament/2.jpg"
+                    alt="Tournament 2"
+                  />
+                </div>
+                <div class="info col-lg-8">
+                  <h4>DOOM</h4>
+                  <div class="body">
+                    <p><span>Tournament Beggins:</span>28 junio 2022</p>
+                    <p><span>Tournament Ends:</span> 16 julio 2022</p>
+                    <p><span>Participantes:</span> 10 teams</p>
+                    <p><span>Autor del Torneo:</span> Admin</p>
+                  </div>
+                  <div class="footer">
+                    <p>
+                      <span>Premios: </span>1st: $2000, 2nd: $1000, 3rd: $500
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Tournaments -->
+
+    <!-- Inicio Reviews -->
+    <section class="reviews">
+      <div class="container">
+        <div class="info" data-aos="fade-up">
+          <span class="name">Nuevo</span>
+          <h2>Recientes Reviews</h2>
+        </div>
+        <!-- Reviews -->
+        <div class="container">
+          <div class="row">
+            <!-- Review 1 -->
+            <div class="review col-md-6 col-lg-3" data-aos="fade-up">
+              <div class="info">
+                <span data-toggle="counter-up">9.6</span>
+                <img src="images/review/1.jpg" alt="Review 1" />
+              </div>
+              <h4>Assasin’s Creed</h4>
+              <p>Uno de los mejores rpg de la ultima epoca.</p>
+            </div>
+            <!-- Review 2 -->
+            <div class="review col-md-6 col-lg-3" data-aos="fade-up">
+              <div class="info">
+                <span data-toggle="counter-up">8.2</span>
+                <img src="images/review/2.jpg" alt="Review 2" />
+              </div>
+              <h4>Doom</h4>
+              <p>
+                Un shooter tan apoteósico que su nombre se escribe con letras
+                mayúsculas.
+              </p>
+            </div>
+            <!-- Review 3 -->
+            <div class="review col-md-6 col-lg-3" data-aos="fade-up">
+              <div class="info">
+                <span data-toggle="counter-up">6.2</span>
+                <img src="images/review/3.jpg" alt="Review 3" />
+              </div>
+              <h4>Overwatch</h4>
+              <p>Un juego que cada dia muere mas</p>
+            </div>
+            <!-- Review 4 -->
+            <div class="review col-md-6 col-lg-3" data-aos="fade-up">
+              <div class="info">
+                <span data-toggle="counter-up">9.3</span>
+                <img src="images/review/4.jpg" alt="Review 4" />
+              </div>
+              <h4>GTA V</h4>
+              <p>Uno de los mejores juegos que ha vendido lo inimaginable</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Reviews -->
+
+    <!-- Precios -->
+    <section class="pricing">
+      <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Precios</h2>
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  Gratis
+                </h5>
+                <h6 class="card-price text-center">
+                  $0<span class="period">/mes</span>
+                </h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    1 Usuario
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    5GB Almacenamiento
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Projectos ilimitados
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Acesso a la comunidad
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>
+                    Projectos privados
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>
+                    Soporte telefonico
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>
+                    subdominio gratis
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>
+                    Reporte mensual
+                  </li>
+                </ul>
+                <button class="btn btn-block btn-primary text-uppercase">
+                  Suscribirse
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Plus Tier -->
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  Plus
+                </h5>
+                <h6 class="card-price text-center">
+                  $200<span class="period">/mes</span>
+                </h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    5 Usuarios
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    50GB Almacenamiento
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Proyectos Publicos
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Acesso a la comunidad
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Proyectos Privados
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Soporte Telefonico
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Subdominio Gratis
+                  </li>
+                  <li class="text-muted">
+                    <span class="fa-li"><i class="fas fa-times"></i></span>
+                    Reporte Mensual
+                  </li>
+                </ul>
+                <button class="btn btn-block btn-primary text-uppercase">
+                  Suscribirse
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Pro Tier -->
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  Pro
+                </h5>
+                <h6 class="card-price text-center">
+                  $1000<span class="period">/mes</span>
+                </h6>
+                <hr />
+                <ul class="fa-ul">
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Usuarios Ilimitados
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    150GB Almacenamiento
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Proyectos publicos
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Acesso a la comunidad
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Projectos Privados
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Soporte Telefonico
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Subdominios Ilimitados
+                  </li>
+                  <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    Reporte Mensual Gratis
+                  </li>
+                </ul>
+                <button class="btn btn-block btn-primary text-uppercase">
+                  Suscribirse
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pricing -->
+
+    <!-- Inicio Pre-Footer -->
+    <section class="pre-footer">
+      <div class="container">
+        <div class="row">
+          <!-- Info -->
+          <div class="col-lg-4" data-aos="fade-up">
+            <div class="info">
+              <div class="logo d-flex align-items-center">
+                <i class="fas fa-gamepad"></i>
+                <h2>Royal <span>Gaming</span></h2>
+              </div>
+              <p>Vamos empieza tu videos en linea y juega gratis</p>
+            </div>
+          </div>
+          <!-- Ultimos Posts -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="latest-posts">
+              <h4>Ultimos Posts</h4>
+              <!-- Post 1 -->
+              <div
+                class="post d-flex align-items-center d-flex align-items-center"
+              >
+                <div class="post-image">
+                  <img
+                    class="rounded-lg img-fluid"
+                    src="images/latest-blog/1.jpeg"
+                    alt="Post 1"
+                  />
+                </div>
+                <div class="post-info">
+                  <span>14 abril 2022</span>
+                  <p>Elden Ring es el juego del año.</p>
+                  <span>Por Admin</span>
+                </div>
+              </div>
+              <!-- Post 2 -->
+              <div class="post d-flex align-items-center">
+                <div class="post-image">
+                  <img
+                    class="rounded-lg img-fluid"
+                    src="images/latest-blog/2.jpeg"
+                    alt="Post 2"
+                  />
+                </div>
+                <div class="post-info">
+                  <span>10 abril 2022</span>
+                  <p>Cual clase elegir en Elden ring</p>
+                  <span>Por Vanessa Sinfuentes</span>
+                </div>
+              </div>
+              <!-- Post 3 -->
+              <div class="post d-flex align-items-center">
+                <div class="post-image">
+                  <img
+                    class="rounded-lg img-fluid"
+                    src="images/latest-blog/3.jpg"
+                    alt="Post 3"
+                  />
+                </div>
+                <div class="post-info">
+                  <span>7 abril 2022</span>
+                  <p>Mi juego Favorito onlione.</p>
+                  <span>By Vanessa sinfuentes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Top Comentarios -->
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="top-comments">
+              <h4>Comentarios Top</h4>
+              <!-- Comentario 1 -->
+              <div class="comment d-flex align-items-center">
+                <div class="comment-img">
+                  <img
+                    class="rounded-circle img-fluid"
+                    src="images/authors/1.jpg"
+                    alt="Comment 1"
+                  />
+                </div>
+                <div class="comment-info">
+                  <span>Tom george</span>
+                  <p><span>En</span> Royal Gaming.</p>
+                  <span>15 abril 2022</span>
+                </div>
+              </div>
+              <!-- Comentario 2 -->
+              <div class="comment d-flex align-items-center">
+                <div class="comment-img">
+                  <img
+                    class="rounded-circle img-fluid"
+                    src="images/authors/2.jpg"
+                    alt="Comment 2"
+                  />
+                </div>
+                <div class="comment-info">
+                  <span>Lore Joh</span>
+                  <p><span>En</span> Amo Royal Gaming.</p>
+                  <span>15 abril 2022</span>
+                </div>
+              </div>
+              <!-- Comentario 3 -->
+              <div class="comment d-flex align-items-center">
+                <div class="comment-img">
+                  <img
+                    class="rounded-circle img-fluid"
+                    src="images/authors/3.jpg"
+                    alt="Comment 3"
+                  />
+                </div>
+                <div class="comment-info">
+                  <span>John Micheal</span>
+                  <p><span>En</span> Hermosos Sitio.</p>
+                  <span>15 abril 2022</span>
+                </div>
+              </div>
+              <!-- Comentario 4 -->
+              <div class="comment d-flex align-items-center">
+                <div class="comment-img">
+                  <img
+                    class="rounded-circle img-fluid"
+                    src="images/authors/4.jpg"
+                    alt="Comment 4"
+                  />
+                </div>
+                <div class="comment-info">
+                  <span> George spe</span>
+                  <p><span>En</span> Amo gaming.</p>
+                  <span>14 abril 2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fin Pre-Footer -->
+
+    <!-- Inicio Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- Copyright -->
+          <div class="copyright col-lg-6">
+            <p>
+              &copy; <span id="footer-copyright-year"></span> |
+              <span>Edwin Kevin Simental Frayre</span>
+            </p>
+          </div>
+          <!-- Links -->
+          <div class="links col-lg-6">
+            <a href="https://github.com/salahineo" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/salahineo/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://salahineo.github.io/salahineo/" target="_blank">
+              <i class="fas fa-globe-africa"></i>
+            </a>
+            <a href="https://twitter.com/salahineo" target="_blank">
+              <i class="fab fa-twitter"> </i>
+            </a>
+            <a href="https://www.facebook.com/salahineo/" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="mailto:salahineo.work@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin Footer -->
+
+    <!-- Inicio Preloader -->
+    <div id="preloader"></div>
+    <!-- Inicio Preloader -->
+
+    <!-- abajo hacia arriba-->
+    <div id="top">
+      <i class="fas fa-arrow-alt-circle-up"></i>
+    </div>
+    <!-- abajo hacia arriba -->
+
+    <!-- Incio Login Modal -->
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal contenidio-->
+        <div class="modal-content">
+          <!-- Body -->
+          <div class="modal-body">
+            <h4 class="text-md-center">Iniciar Sesion</h4>
+            <button type="button" class="d-md-none close" data-dismiss="modal">
+              &times;
+            </button>
+            <div class="username d-flex align-items-center">
+              <i class="fas fa-user"></i>
+              <input
+                class="flex-grow-1"
+                type="text"
+                id="username"
+                placeholder="Usuario"
+              />
+            </div>
+            <div class="password d-flex align-items-center">
+              <i class="fas fa-lock"></i>
+              <input
+                class="flex-grow-1"
+                type="password"
+                id="password"
+                placeholder="Contraseña"
+              />
+            </div>
+            <button class="btn btn-primary">Iniciar</button>
+            <hr />
+            <div class="social d-flex flex-column align-items-center">
+              <button class="facebook mb-3">
+                <i class="fab fa-facebook-f"></i>
+                Inciar Con Facebook
+              </button>
+              <button class="google mb-3">
+                <i class="fab fa-google"></i>
+                Inciar con Google
+              </button>
+              <button class="twitter mb-3">
+                <i class="fab fa-twitter"></i>
+                Iniciar Con TWITTER
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Login Modal -->
+
+    <!-- inicio Registro Modal -->
+    <div id="registerModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal Contenido-->
+        <div class="modal-content">
+          <!-- Body -->
+          <div class="modal-body">
+            <h4 class="text-md-center">Registrarse</h4>
+            <button type="button" class="d-md-none close" data-dismiss="modal">
+              &times;
+            </button>
+            <div class="name d-flex align-items-center">
+              <i class="fas fa-user"></i>
+              <input
+                class="flex-grow-1"
+                type="text"
+                id="name"
+                placeholder="Nombre"
+              />
+            </div>
+            <div class="email d-flex align-items-center">
+              <i class="fas fa-envelope"></i>
+              <input
+                class="flex-grow-1"
+                type="email"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="password d-flex align-items-center">
+              <i class="fas fa-lock"></i>
+              <input
+                class="flex-grow-1"
+                type="password"
+                id="register-password"
+                placeholder="Contraseña"
+              />
+            </div>
+            <button class="btn btn-primary">Registrarse</button>
+            <hr />
+            <div class="social d-flex flex-column align-items-center">
+              <button class="facebook mb-3">
+                <i class="fab fa-facebook-f"></i>
+                Registrarse con Facebook
+              </button>
+              <button class="google mb-3">
+                <i class="fab fa-google"></i>
+                Registrarse con Google
+              </button>
+              <button class="twitter mb-3">
+                <i class="fab fa-twitter"></i>
+                Registrarse con Twitter
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fin Register Modal -->
+
+    <!-- Scripts -->
+    <script src="vendors/jquery/jquery.min.js"></script>
+    <script src="vendors/popperjs/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/aos/aos.js"></script>
+    <script src="vendors/jqEasing/jquery.easing.min.js"></script>
+    <script src="vendors/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendors/counterup/counterup.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>
